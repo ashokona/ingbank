@@ -98,4 +98,22 @@ background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5
     background: #000066;
   }
 }
-/* 767 */
+/* charts css */
+.bar{
+  fill: steelblue;
+}
+
+.bar:hover{
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
