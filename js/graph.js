@@ -1,104 +1,72 @@
 // // set the dimensions of the canvas
 var data = [
   {
-    "Letter": "A",
-    "Freq": 20	
+    "Letter": "Jan-17",
+    "Freq": 2000
   },
   {
-    "Letter" : "B",
-    "Freq": 12
+    "Letter" : "Feb-17",
+    "Freq": 0
   },
   {
-    "Letter" : "C",
-    "Freq": 47
+    "Letter" : "Mar-17",
+    "Freq": 4700
   },
   {
-    "Letter" : "D",
-    "Freq": 34
+    "Letter" : "Apr-17",
+    "Freq": 3400
   },
   {
-    "Letter" : "E",
-    "Freq" : 54
+    "Letter" : "May-17",
+    "Freq" : 5400
   },
   {
-    "Letter" : "F",
-    "Freq" : 21
+    "Letter" : "Jun-17",
+    "Freq" : 2100
   },
   {
-    "Letter" : "G",
-    "Freq" : 57
+    "Letter" : "Jly-17",
+    "Freq" : 0
   },
   {
-    "Letter" : "H",
-    "Freq" : 31
+    "Letter" : "Aug-17",
+    "Freq" : 3100
   },
   {
-    "Letter" : "I",
-    "Freq" : 17
+    "Letter" : "Sep-17",
+    "Freq" : 17000
   },
   {
-    "Letter" : "J",
-    "Freq" : 5
+    "Letter" : "Oct-17",
+    "Freq" : 5000
   },
   {
-    "Letter" : "K",
-    "Freq" : 23
+    "Letter" : "Nov-17",
+    "Freq" : 2300
   },
   {
-    "Letter" : "L",
-    "Freq" : 39
+    "Letter" : "Dec-17",
+    "Freq" : 39000
   },
   {
-    "Letter" : "M",
-    "Freq" : 29
+    "Letter" : "Jan-18",
+    "Freq" : 29000
   },
   {
-    "Letter" : "N",
-    "Freq" : 33
+    "Letter" : "Feb-18",
+    "Freq" : 33000
   },
   {
-    "Letter" : "O",
-    "Freq" : 18
+    "Letter" : "Mar-18",
+    "Freq" : 1800
   },
   {
-    "Letter" : "P",
-    "Freq" : 35
+    "Letter" : "Apr-18",
+    "Freq" : 3500
   },
   {
-    "Letter" : "Q",
-    "Freq" : 11
-  },
-  {
-    "Letter" : "R",
-    "Freq" : 45
-  },
-  {
-    "Letter" : "S",
-    "Freq" : 43
-  },
-  {
-    "Letter" : "T",
-    "Freq" : 28
-  },
-  {
-    "Letter" : "U",
-    "Freq" : 26
-  },
-  {
-    "Letter" : "V",
-    "Freq" : 30
-  },
-  {
-    "Letter" : "X",
-    "Freq" : 5
-  },
-  {
-    "Letter" : "Y",
-    "Freq" : 4
-  },
-  {
-    "Letter" : "Z",
-    "Freq" : 2
+    "Letter" : "May-18",
+    "Freq" : 11000
   }
   ];
 var margin = {top: 20, right: 20, bottom: 70, left: 40},
@@ -159,7 +127,7 @@ var svg = d3.select("#graph").append("svg")
       .attr("y", 5)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Frequency");
+      .text("Spendings");
     
     
     // Add bar chart
